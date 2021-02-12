@@ -1,0 +1,11 @@
+amarelo
+#f7df1e
+
+verde
+#008f4c
+
+vermelho
+#ed1c24
+
+azul
+#0071bc
