@@ -1,9 +1,9 @@
-let num1 = 0.1;
-let num2 = 0.7;
-let num3 = 100;
-
-console.log(num1 + num2);
-
-console.log((num1 + num2).toFixed(1));
-
-console.log((num1 + num2));
+function mostrasub(submenu) {
+    for (i = 1; i <= 3; i++) {
+        if ((document.getElementById(submenu).style.maxHeight != "150px") && ((submenu) == ('sub' + i))) {
+            document.getElementById('sub' + i).style.maxHeight = "150px";
+        } else {
+            document.getElementById('sub' + i).style.maxHeight = "0px";
+        }
+    }
+}
